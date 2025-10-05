@@ -1,6 +1,6 @@
 #include "Arduino.h"
 
-#define Vin 25    // PWM output pin (GPIO25, safe)
+#define Vin 12    // PWM output pin (GPIO12, safe)
 #define Vout 32   // ADC input pin (GPIO32, ADC1 channel)
 
 const float Vref = 3.3f;   // Reference voltage
